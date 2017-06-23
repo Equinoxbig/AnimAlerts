@@ -147,20 +147,7 @@
         "description":"Side menu"
     },
     "i18n_homepage": {
-        "message": "22/06/207 - Réinitialisation de tous les réglages suite à une mise à jour.<br><br>Cette extension vous préviendra à l'aide d'une notification à chaque sorties d'animés ou de scans sur un des sites surveillés.<br>Un grand nombre de sites
-            francophones est présent car l'extension était d'abord prévue pour les sites français.<br>En utilisant le menu sur la gauche il vous est possible de paramétrer vos notifications par animé et par site.<br>Si vous voulez demander l'ajout
-            d'un nouveau site, n'hésitez pas à me contacter.
-
-            <br><br><br>Une question / une demande / un conseil / besoin d'entrer en contact avec moi ? Le plus simple pour moi est mon twitter <a href=\"https://twitter.com/Equinoxbig\">@Equinoxbig</a>.
-
-            <!--<br><br><br>N'hésitez pas à jeter on oeil au wiki si vous avez une quelconque question sur l'utilisation de l'extension.-->
-
-            <br><br><br>Contributions : si vous voulez aider à la traduction de l'extension / proposer une nouvelle icone / aider au portage sur différents navigateurs veuillez jeter un oeil au projet sur <a href=\"https://github.com/equinoxbig/AnimAlerts\">GitHub</a>.
-
-            <br><br><br>F.A.Q :
-            <br><strong>Comment ignorer un site ?</strong>
-            <br><i>- Il suffit de mettre les titres cochés en \"acceptés\" et de n'en cocher aucun.</i>
-            <br><br>",
+        "message": "22/06/207 - Réinitialisation de tous les réglages suite à une mise à jour.<br><br>Cette extension vous préviendra à l'aide d'une notification à chaque sorties d'animés ou de scans sur un des sites surveillés.<br>Un grand nombre de sites francophones est présent car l'extension était d'abord prévue pour les sites français.<br>En utilisant le menu sur la gauche il vous est possible de paramétrer vos notifications par animé et par site.<br>Si vous voulez demander l'ajout d'un nouveau site, n'hésitez pas à me contacter. <br><br><br>Une question / une demande / un conseil / besoin d'entrer en contact avec moi ? Le plus simple pour moi est mon twitter <a href=\"https://twitter.com/Equinoxbig\">@Equinoxbig</a>.<!--<br><br><br>N'hésitez pas à jeter on oeil au wiki si vous avez une quelconque question sur l'utilisation de l'extension.--><br><br><br>Contributions : si vous voulez aider à la traduction de l'extension / proposer une nouvelle icone / aider au portage sur différents navigateurs veuillez jeter un oeil au projet sur <a href=\"https://github.com/equinoxbig/AnimAlerts\">GitHub</a>.<br><br><br>F.A.Q :<br><strong>Comment ignorer un site ?</strong><br><i>- Il suffit de mettre les titres cochés en \"acceptés\" et de n'en cocher aucun.</i><br><br>",
         "description":"presentation message on the homepage"
     },
 

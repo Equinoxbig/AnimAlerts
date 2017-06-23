@@ -147,20 +147,7 @@
         "description":"Side menu"
     },
     "i18n_homepage": {
-        "message": "22/06/207 - Settings have been reset because of the update.<br><br>This extension will create a notification everytime a new episode or a new scan is released on the websites from the menu on the left.<br>A lot of these websites
-            are french as my goal when I created this tool for me at the beginning was french subtitled animes.<br>By using the menu on your left you can configure the extension depending on any website or anime you want.<br>If you want a new site
-            to be added, don't hesitate just contact me.
-
-            <br><br><br>If you need to contact me for whatever reasons. The easiest way for me is on twitter <a href\"https://twitter.com/Equinoxbig\">@Equinoxbig</a>.
-
-            <!--<br><br><br>N'hésitez pas à jeter on oeil au wiki si vous avez une quelconque question sur l'utilisation de l'extension.-->
-
-            <br><br><br>Contributing : If you want to help translating / making a new icon / porting this extension to other browsers please take a look at the project on <a href=\"https://github.com/equinoxbig/AnimAlerts\">GitHub</a>.
-
-            <br><br><br>F.A.Q :
-            <br><strong>How to ignore a website ?</strong>
-            <br><i>- Just set the checked titles as \"accepted\" and don't check anything.</i>
-            <br><br>",
+        "message": "22/06/207 - Settings have been reset because of the update.<br><br>This extension will create a notification everytime a new episode or a new scan is released on the websites from the menu on the left.<br>A lot of these websites are french as my goal when I created this tool for me at the beginning was french subtitled animes.<br>By using the menu on your left you can configure the extension depending on any website or anime you want.<br>If you want a new site to be added, don't hesitate just contact me.<br><br><br>If you need to contact me for whatever reasons. The easiest way for me is on twitter <a href\"https://twitter.com/Equinoxbig\">@Equinoxbig</a>.<!--<br><br><br>N'hésitez pas à jeter on oeil au wiki si vous avez une quelconque question sur l'utilisation de l'extension.--><br><br><br>Contributing : If you want to help translating / making a new icon / porting this extension to other browsers please take a look at the project on <a href=\"https://github.com/equinoxbig/AnimAlerts\">GitHub</a>.<br><br><br>F.A.Q :<br><strong>How to ignore a website ?</strong><br><i>- Just set the checked titles as \"accepted\" and don't check anything.</i><br><br>",
         "description":"presentation message on the homepage"
     },
 

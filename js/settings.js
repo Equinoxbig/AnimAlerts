@@ -98,64 +98,68 @@ function render(data, site) {
     if (!cache[site.toLowerCase()])
         cache[site.toLowerCase()] = data;
 
-    //Display every animes once.
-    displayAll(data, site);
 
-    //Only show checked animes
-    document.getElementById('checked-true').addEventListener('click', function() {
-        //Unchecking the other option
-        document.getElementById('checked-false').checked = false;
-        //Getting only checked anims and displaying them
-        chrome.storage.local.get('websites', function(res) {
-            displayAll(res.websites[site.toLowerCase()].chosen, site);
-        });
-    });
-
-    //Show every animes
-    document.getElementById('checked-false').addEventListener('click', function() {
-        //Unchecking the other option
-        document.getElementById('checked-true').checked = false
-        //Display every animes
+    //Otherwise event listeners are a bit laggy
+    setTimeout(function() {
+        //Display every animes once.
         displayAll(data, site);
-    });
 
-    //Updating accepting / ignoring checked animes
-    document.getElementById('ignoring').addEventListener('click', function() {
-        //Unchecking the other option
-        document.getElementById('accepting').checked = false;
-
-        //Updating the config
-        chrome.storage.local.get('websites', function(res) {
-            res.websites[site.toLowerCase()].ignoring = true;
-            chrome.storage.local.set({
-                websites: res.websites
+        //Only show checked animes
+        document.getElementById('checked-true').addEventListener('click', function() {
+            //Unchecking the other option
+            document.getElementById('checked-false').checked = false;
+            //Getting only checked anims and displaying them
+            chrome.storage.local.get('websites', function(res) {
+                displayAll(res.websites[site.toLowerCase()].chosen, site);
             });
         });
-    });
 
-    //Updating accepting / ignoring checked animes
-    document.getElementById('accepting').addEventListener('click', function() {
-        //Unchecking the other option
-        document.getElementById('ignoring').checked = false;
+        //Show every animes
+        document.getElementById('checked-false').addEventListener('click', function() {
+            //Unchecking the other option
+            document.getElementById('checked-true').checked = false
+            //Display every animes
+            displayAll(data, site);
+        });
 
-        //Updating the config
-        chrome.storage.local.get('websites', function(res) {
-            res.websites[site.toLowerCase()].ignoring = false;
-            chrome.storage.local.set({
-                websites: res.websites
+        //Updating accepting / ignoring checked animes
+        document.getElementById('ignoring').addEventListener('click', function() {
+            //Unchecking the other option
+            document.getElementById('accepting').checked = false;
+
+            //Updating the config
+            chrome.storage.local.get('websites', function(res) {
+                res.websites[site.toLowerCase()].ignoring = true;
+                chrome.storage.local.set({
+                    websites: res.websites
+                });
             });
         });
-    });
 
-    //Searchbar filtering everytime a thing is typed in
-    document.getElementById('searchanime').addEventListener('keyup', function(e) {
-        //Get every title that includes the thing in the searchbar
-        var display = data.filter(function(elem) {
-            return elem.title.toLowerCase().includes(document.getElementById('searchanime').value.toLowerCase());
+        //Updating accepting / ignoring checked animes
+        document.getElementById('accepting').addEventListener('click', function() {
+            //Unchecking the other option
+            document.getElementById('ignoring').checked = false;
+
+            //Updating the config
+            chrome.storage.local.get('websites', function(res) {
+                res.websites[site.toLowerCase()].ignoring = false;
+                chrome.storage.local.set({
+                    websites: res.websites
+                });
+            });
         });
-        //Display these titles
-        displayAll(display, site);
-    });
+
+        //Searchbar filtering everytime a thing is typed in
+        document.getElementById('searchanime').addEventListener('keyup', function(e) {
+            //Get every title that includes the thing in the searchbar
+            var display = data.filter(function(elem) {
+                return elem.title.toLowerCase().includes(document.getElementById('searchanime').value.toLowerCase());
+            });
+            //Display these titles
+            displayAll(display, site);
+        });
+    }, 5);
 }
 
 //Adds event listener for each checkbox
