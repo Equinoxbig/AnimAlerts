@@ -4,7 +4,7 @@ A chrome addon that notifies you when a new episode or scan is released.
 
 ## Getting Started
 
-Download the project as zip and load it as non-zipped extension from : (don't forget to set dev mode on)
+Download the project from github as zip, unzip it in a folder and load it as non-zipped extension (don't forget to set dev mode on) from : 
 ```
 chrome://extensions
 ```
