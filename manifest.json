@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "version": "0.5.0",
+
+    "name": "__MSG_extensionName__",
+    "short_name": "__MSG_extensionShortName__",
+    "description": "__MSG_extensionDescription__",
+
+    "author": "Equinoxbig",
+
+    "default_locale": "en",
+
+    "permissions": [
+        "storage", "notifications", "unlimitedStorage"
+    ],
+
+    "background": {
+        "scripts": ["js/weebsocket.js"]
+    },
+
+    "browser_action": {
+        "default_icon": {
+            "128": "img/icon.png"
+        },
+        "default_title": "AnimAlerts",
+        "default_popup": "html/popup.html"
+    }
+}

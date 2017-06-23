@@ -1,0 +1,190 @@
+{
+    "monday": {
+        "message": "Monday",
+        "description": "Used for days of the week"
+    },
+    "tuesday": {
+        "message": "Tuesday",
+        "description": "Used for days of the week"
+    },
+    "wednesday": {
+        "message": "Wednesday",
+        "description": "Used for days of the week"
+    },
+    "thursday": {
+        "message": "Thursday",
+        "description": "Used for days of the week"
+    },
+    "friday": {
+        "message": "Friday",
+        "description": "Used for days of the week"
+    },
+    "saturday": {
+        "message": "Saturday",
+        "description": "Used for days of the week"
+    },
+    "sunday": {
+        "message": "Sunday",
+        "description": "Used for days of the week"
+    },
+
+
+
+    "january": {
+        "message": "January",
+        "description": "Used for months"
+    },
+    "february": {
+        "message": "February",
+        "description": "Used for months"
+    },
+    "march": {
+        "message": "March",
+        "description": "Used for months"
+    },
+    "april": {
+        "message": "April",
+        "description": "Used for months"
+    },
+    "may": {
+        "message": "May",
+        "description": "Used for months"
+    },
+    "june": {
+        "message": "June",
+        "description": "Used for months"
+    },
+    "july": {
+        "message": "July",
+        "description": "Used for months"
+    },
+    "august": {
+        "message": "August",
+        "description": "Used for months"
+    },
+    "september": {
+        "message": "September",
+        "description": "Used for months"
+    },
+    "october": {
+        "message": "October",
+        "description": "Used for months"
+    },
+    "november": {
+        "message": "November",
+        "description": "Used for months"
+    },
+    "december": {
+        "message": "December",
+        "description": "Used for months"
+    },
+
+
+
+    "table_title": {
+        "message": "Title",
+        "description": "At the top of the table element"
+    },
+    "table_last_episode": {
+        "message": "Last episode",
+        "description": "At the top of the table element"
+    },
+    "table_last_release_date": {
+        "message": "Last release date",
+        "description": "At the top of the table element"
+    },
+
+
+
+    "accepted": {
+        "message": "Accepted",
+        "description": "Checked animes are accepted"
+    },
+    "ignored": {
+        "message": "Ignored",
+        "description": "Checked animes are ignored"
+    },
+    "yes": {
+        "message": "Yes"
+    },
+    "no": {
+        "message": "No"
+    },
+
+
+
+    "checked_titles_are": {
+        "message": "Checked titles are :"
+    },
+    "checked_titles_show": {
+        "message": "Show only checked titles ?"
+    },
+
+
+
+    "number_titles": {
+        "message": "Number of shown titles : "
+    },
+    "selected_site": {
+        "message": "Selected site : "
+    },
+    "search_title": {
+        "message": "Search a title currently broadcasted"
+    },
+
+
+
+    "i18n_others": {
+        "message": "Others :",
+        "description":"Side menu"
+    },
+    "i18n_presentation": {
+        "message": "Presentation - Contact",
+        "description":"Side menu"
+    },
+    "i18n_site_settings": {
+        "message": "Settings per site",
+        "description":"Side menu"
+    },
+    "i18n_homepage": {
+        "message": "22/06/207 - Settings have been reset because of the update.<br><br>This extension will create a notification everytime a new episode or a new scan is released on the websites from the menu on the left.<br>A lot of these websites
+            are french as my goal when I created this tool for me at the beginning was french subtitled animes.<br>By using the menu on your left you can configure the extension depending on any website or anime you want.<br>If you want a new site
+            to be added, don't hesitate just contact me.
+
+            <br><br><br>If you need to contact me for whatever reasons. The easiest way for me is on twitter <a href\"https://twitter.com/Equinoxbig\">@Equinoxbig</a>.
+
+            <!--<br><br><br>N'hésitez pas à jeter on oeil au wiki si vous avez une quelconque question sur l'utilisation de l'extension.-->
+
+            <br><br><br>Contributing : If you want to help translating / making a new icon / porting this extension to other browsers please take a look at the project on <a href=\"https://github.com/equinoxbig/AnimAlerts\">GitHub</a>.
+
+            <br><br><br>F.A.Q :
+            <br><strong>How to ignore a website ?</strong>
+            <br><i>- Just set the checked titles as \"accepted\" and don't check anything.</i>
+            <br><br>",
+        "description":"presentation message on the homepage"
+    },
+
+
+
+    "new_release": {
+        "message": "New release "
+    },
+    "mark_as_seen": {
+        "message": "Mark as seen."
+    },
+    "watch_now": {
+        "message": "Watch now."
+    },
+
+
+
+    "extensionName": {
+        "message": "Animes / Scans - Alerts"
+    },
+    "extensionShortName": {
+        "message": "AnimAlerts"
+    },
+    "extensionDescription": {
+        "message": "Be informed from the release of a new episode or scan by a chrome notification."
+    }
+}

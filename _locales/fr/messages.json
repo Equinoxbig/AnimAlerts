@@ -1,0 +1,190 @@
+{
+    "monday": {
+        "message": "Lundi",
+        "description": "Used for days of the week"
+    },
+    "tuesday": {
+        "message": "Mardi",
+        "description": "Used for days of the week"
+    },
+    "wednesday": {
+        "message": "Mercredi",
+        "description": "Used for days of the week"
+    },
+    "thursday": {
+        "message": "Jeudi",
+        "description": "Used for days of the week"
+    },
+    "friday": {
+        "message": "Vendredi",
+        "description": "Used for days of the week"
+    },
+    "saturday": {
+        "message": "Samedi",
+        "description": "Used for days of the week"
+    },
+    "sunday": {
+        "message": "Dimanche",
+        "description": "Used for days of the week"
+    },
+
+
+
+    "january": {
+        "message": "Janvier",
+        "description": "Used for months"
+    },
+    "february": {
+        "message": "Février",
+        "description": "Used for months"
+    },
+    "march": {
+        "message": "Mars",
+        "description": "Used for months"
+    },
+    "april": {
+        "message": "Avril",
+        "description": "Used for months"
+    },
+    "may": {
+        "message": "Mai",
+        "description": "Used for months"
+    },
+    "june": {
+        "message": "Juin",
+        "description": "Used for months"
+    },
+    "july": {
+        "message": "Juillet",
+        "description": "Used for months"
+    },
+    "august": {
+        "message": "Août",
+        "description": "Used for months"
+    },
+    "september": {
+        "message": "Septembre",
+        "description": "Used for months"
+    },
+    "october": {
+        "message": "Octobre",
+        "description": "Used for months"
+    },
+    "november": {
+        "message": "Novembre",
+        "description": "Used for months"
+    },
+    "december": {
+        "message": "Décembre",
+        "description": "Used for months"
+    },
+
+
+
+    "table_title": {
+        "message": "Titre",
+        "description": "At the top of the table element"
+    },
+    "table_last_episode": {
+        "message": "Dernier épisode",
+        "description": "At the top of the table element"
+    },
+    "table_last_release_date": {
+        "message": "Dernière date de sortie",
+        "description": "At the top of the table element"
+    },
+
+
+
+    "accepted": {
+        "message": "Acceptés",
+        "description": "Checked animes are accepted"
+    },
+    "ignored": {
+        "message": "Ignorés",
+        "description": "Checked animes are ignored"
+    },
+    "yes": {
+        "message": "Oui"
+    },
+    "no": {
+        "message": "Non"
+    },
+
+
+
+    "checked_titles_are": {
+        "message": "Les titres cochés sont :"
+    },
+    "checked_titles_show": {
+        "message": "Ne montrer que les titres cochés sont ?"
+    },
+
+
+
+    "number_titles": {
+        "message": "Nombre de titres listés : "
+    },
+    "selected_site": {
+        "message": "Site sélectionné : "
+    },
+    "search_title": {
+        "message": "Chercher un titre en cours de diffusion"
+    },
+
+
+
+    "i18n_others": {
+        "message": "Autres :",
+        "description":"Side menu"
+    },
+    "i18n_presentation": {
+        "message": "Présentation - Contact",
+        "description":"Side menu"
+    },
+    "i18n_site_settings": {
+        "message": "Réglages par site",
+        "description":"Side menu"
+    },
+    "i18n_homepage": {
+        "message": "22/06/207 - Réinitialisation de tous les réglages suite à une mise à jour.<br><br>Cette extension vous préviendra à l'aide d'une notification à chaque sorties d'animés ou de scans sur un des sites surveillés.<br>Un grand nombre de sites
+            francophones est présent car l'extension était d'abord prévue pour les sites français.<br>En utilisant le menu sur la gauche il vous est possible de paramétrer vos notifications par animé et par site.<br>Si vous voulez demander l'ajout
+            d'un nouveau site, n'hésitez pas à me contacter.
+
+            <br><br><br>Une question / une demande / un conseil / besoin d'entrer en contact avec moi ? Le plus simple pour moi est mon twitter <a href=\"https://twitter.com/Equinoxbig\">@Equinoxbig</a>.
+
+            <!--<br><br><br>N'hésitez pas à jeter on oeil au wiki si vous avez une quelconque question sur l'utilisation de l'extension.-->
+
+            <br><br><br>Contributions : si vous voulez aider à la traduction de l'extension / proposer une nouvelle icone / aider au portage sur différents navigateurs veuillez jeter un oeil au projet sur <a href=\"https://github.com/equinoxbig/AnimAlerts\">GitHub</a>.
+
+            <br><br><br>F.A.Q :
+            <br><strong>Comment ignorer un site ?</strong>
+            <br><i>- Il suffit de mettre les titres cochés en \"acceptés\" et de n'en cocher aucun.</i>
+            <br><br>",
+        "description":"presentation message on the homepage"
+    },
+
+
+
+    "new_release": {
+        "message": "Nouvelle sortie "
+    },
+    "mark_as_seen": {
+        "message": "Marquer comme vu."
+    },
+    "watch_now": {
+        "message": "Voir maintenant."
+    },
+
+
+
+    "extensionName": {
+        "message": "Animés / Scans - Alertes"
+    },
+    "extensionShortName": {
+        "message": "AnimAlerts"
+    },
+    "extensionDescription": {
+        "message": "Soyez informés de la sortie d'un animé ou d'un scan par une notification chrome."
+    }
+}

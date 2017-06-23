@@ -1,0 +1,181 @@
+html, body, .content-frame {
+    background-color: rgb(245, 245, 245)!important;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    background: #2e2e2e;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+p:first-child {
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#table-title {
+    width: 67%!important;
+}
+
+#table-episode {
+    width: 12%!important;
+}
+
+.site-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.site-center {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content-offset {
+    height: 100%;
+}
+
+.content-frame {
+    display: table;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    line-height: 25px;
+    font-size: 15px;
+    letter-spacing: normal;
+    background: blue;
+}
+
+html>body .content-frame {
+    min-height: 100%;
+}
+
+.row {
+    display: table-row;
+    height: 1px;
+    overflow: hidden;
+}
+
+html>body .row.expand {
+    height: auto;
+}
+
+.inner-padding {
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.header-padding {
+    padding: 20px 16px 10px 47px;
+    position: relative;
+}
+
+.header-content {
+    width: 100%;
+    position: relative;
+}
+
+.fixed-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.fixed-content {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.fixed-wrapper, .fixed-content {
+    width: 200px;
+}
+
+.content-offset {
+    margin-left: 150px;
+}
+
+.menu {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.fa-search {
+    color: black!important;
+    background-color: transparent;
+    margin-top: -3px!important;
+}
+
+.anime-list {
+    text-align: left;
+    margin-top: 340px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.table td, .table tr, .table th, .table thead, .table {
+    background-color: transparent!important;
+}
+
+.table {
+    width: calc(100% - 200px)!important;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    align-items: center;
+    width: calc(100% - 200px);
+    border-radius: 0px!important;
+    box-shadow: 0px!important;
+    /*left: 200px;
+    top: 0;
+    border-radius: 0px!important;
+
+    padding-left: 0!important;
+    */
+}
+
+.radio-poll {
+    text-align: center;
+}
+
+.navbar-offset {
+    margin-left: 200px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar .input {
+    left: 0!important;
+}
+
+.presentation {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 200px;
+}

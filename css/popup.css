@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(251, 251, 251);
+    padding: 10px!important;
+}
+
+.entete, .separator, .instructions {
+    margin-bottom: 10px;
+}
+
+.separator {
+    width: 100%!important;
+    background-color: grey;
+    height: 2px;
+}
+
+.sites {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.icon {
+    margin-right: 14px;
+    margin-top: 14px;
+}
