@@ -113,13 +113,13 @@ function connect() {
                             //if checked titles are ignored :
                             if (res.websites[data.website.name.toLowerCase()].ignoring) {
                                 var filtered = data.animes.filter(function(anime) {
-                                    return !res.websites[data.website.name.toLowerCase()].chosen.includes(anime.title);
+                                    return !res.websites[data.website.name.toLowerCase()].titles.includes(anime.title);
                                 });
                             }
                             //if checked titles are accepted :
                             else {
                                 var filtered = data.animes.filter(function(anime) {
-                                    return res.websites[data.website.name.toLowerCase()].chosen.includes(anime.title);
+                                    return res.websites[data.website.name.toLowerCase()].titles.includes(anime.title);
                                 });
                             }
                             data.animes = filtered;
