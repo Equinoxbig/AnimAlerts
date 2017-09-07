@@ -14,21 +14,56 @@ function getNotifs() {
         if (res.last_notifs) {
             res.last_notifs.forEach(function(notif) {
                 if (notif) {
-                    var date = new Date(notif.timestamp),
-                        episodes = '';
+                    var date = new Date(notif.timestamp);
 
+                    // Créer une box
+                    var box = document.createElement('div');
+                    box.className = 'box';
+                    document.body.appendChild(box);
+
+                    // Y ajoute la div media
+                    var article = document.createElement('article');
+                    article.className = 'media';
+                    box.appendChild(article);
+
+                    // Y ajoute la div media content
+                    var mediaContent = document.createElement('div');
+                    mediaContent.className = 'media-content';
+                    article.appendChild(mediaContent);
+
+                    // Y ajoute la div content
+                    var content = document.createElement('div');
+                    content.className = 'content';
+                    mediaContent.appendChild(content);
+
+                    // Y ajoute le paragraphe
+                    var paragraph = document.createElement('p');
+                    paragraph.setAttribute('id', 'newRelease')
+                    content.appendChild(paragraph);
+
+                    // Y ajoute le titre : Nouvelle sortie SITE
+                    var strong = document.createElement('strong');
+                    strong.textContent = `${chrome.i18n.getMessage('new_release')} ${notif.website.name}   `;
+                    paragraph.appendChild(strong);
+
+                    // Date :
+                    var stringDate = `   ${date.getDate().length == 1 ? '0' + date.getDate() : date.getDate()}/${(date.getMonth() + 1).toString().length == 1 ? '0' + (date.getMonth() + 1) : (date.getMonth() + 1)}/${date.getFullYear()} ${date.getHours().toString().length == 1 ? '0' + date.getHours().toString() : date.getHours()}h${date.getMinutes().toString().length == 1 ? '0' + date.getMinutes().toString() : date.getMinutes()}`;
+                    var small = document.createElement('small');
+                    small.textContent = stringDate;
+                    paragraph.appendChild(small);
+
+                    paragraph.appendChild(document.createElement('br'));
+
+                    // Listes des animés :
                     notif.animes.forEach(function(anime) {
-                        episodes += `<a href="${anime.href}" target="_blank">${anime.title} - ${anime.episode}</a><br>`
-                    });
+                        var a = document.createElement('a');
+                        a.setAttribute('href', anime.href);
+                        a.setAttribute('target', '_blank');
+                        a.textContent = `${anime.title} - ${anime.episode}`;
+                        paragraph.appendChild(a);
 
-                    document.getElementById('unread-notifs').innerHTML += `<div class="box">
-                    <article class="media"><div class="media-content"><div class="content"><p>
-                    <strong>${chrome.i18n.getMessage('new_release')} ${notif.website.name}</strong> <small>
-                    ${date.getDate().length == 1 ? '0' + date.getDate() : date.getDate()}/${(date.getMonth() + 1).toString().length == 1 ? '0' + (date.getMonth() + 1) : (date.getMonth() + 1)}/${date.getFullYear()}
-                    ${date.getHours().toString().length == 1 ? '0' + date.getHours().toString() : date.getHours()}h${date.getMinutes().toString().length == 1 ? '0' + date.getMinutes().toString() : date.getMinutes()}</small>
-                    <br>
-                    ${episodes}
-                    </p></div></div></article></div>`;
+                        paragraph.appendChild(document.createElement('br'));
+                    });
                 }
             });
         }

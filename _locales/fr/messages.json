@@ -117,7 +117,7 @@
         "message": "Les titres cochés sont :"
     },
     "checked_titles_show": {
-        "message": "Ne montrer que les titres cochés sont ?"
+        "message": "Ne montrer que les titres cochés ?"
     },
 
 
@@ -136,19 +136,19 @@
 
     "i18n_others": {
         "message": "Autres :",
-        "description":"Side menu"
+        "description": "Side menu"
     },
     "i18n_presentation": {
         "message": "Présentation - Contact",
-        "description":"Side menu"
+        "description": "Side menu"
     },
     "i18n_site_settings": {
         "message": "Réglages par site",
-        "description":"Side menu"
+        "description": "Side menu"
     },
     "i18n_homepage": {
-        "message": "22/06/207 - Réinitialisation de tous les réglages suite à une mise à jour.<br><br>Cette extension vous préviendra à l'aide d'une notification à chaque sorties d'animés ou de scans sur un des sites surveillés.<br>Un grand nombre de sites francophones est présent car l'extension était d'abord prévue pour les sites français.<br>En utilisant le menu sur la gauche il vous est possible de paramétrer vos notifications par animé et par site.<br>Si vous voulez demander l'ajout d'un nouveau site, n'hésitez pas à me contacter. <br><br><br>Une question / une demande / un conseil / besoin d'entrer en contact avec moi ? Le plus simple pour moi est mon twitter <a href=\"https://twitter.com/Equinoxbig\">@Equinoxbig</a>.<!--<br><br><br>N'hésitez pas à jeter on oeil au wiki si vous avez une quelconque question sur l'utilisation de l'extension.--><br><br><br>Contributions : si vous voulez aider à la traduction de l'extension / proposer une nouvelle icone / aider au portage sur différents navigateurs veuillez jeter un oeil au projet sur <a href=\"https://github.com/equinoxbig/AnimAlerts\">GitHub</a>.<br><br><br>F.A.Q :<br><strong>Comment ignorer un site ?</strong><br><i>- Il suffit de mettre les titres cochés en \"acceptés\" et de n'en cocher aucun.</i><br><br>",
-        "description":"presentation message on the homepage"
+        "message": "22/06/207 - Réinitialisation de tous les réglages suite à une mise à jour.<br><br>Cette extension vous préviendra à l'aide d'une notification à chaque sorties d'animés ou de scans sur un des sites surveillés.<br>Un grand nombre de sites francophones est présent car l'extension était d'abord prévue pour les sites français.<br>En utilisant le menu sur la gauche il vous est possible de paramétrer vos notifications par animé et par site.<br>Si vous voulez demander l'ajout d'un nouveau site, n'hésitez pas à me contacter. <br><br><br>Une question / une demande / un conseil / besoin d'entrer en contact avec moi ? Le plus simple pour moi est mon twitter @Equinoxbig.<br><br><br>Contributions : si vous voulez aider à la traduction de l'extension / proposer une nouvelle icone / aider au portage sur différents navigateurs veuillez jeter un oeil au projet sur Github : https://github.com/equinoxbig/AnimAlerts.<br><br><br>F.A.Q :<br>Comment ignorer un site ?<br>- Il suffit de mettre les titres cochés en \"acceptés\" et de n'en cocher aucun.<br><br>",
+        "description": "presentation message on the homepage"
     },
 
 

@@ -131,6 +131,29 @@ function connect() {
                         });
                     }, 2 * 1000);
                 }
+                // When connecting to ws : site list is now sent
+                else if (data.event_type === 'site_list') {
+                    var list = Object.keys(data.list);
+
+                    chrome.storage.local.get('websites', function(res) {
+                        list.forEach(function(website) {
+                            if (!Object.keys(res.websites).includes(website)) {
+                                res.websites[data.list[website].name.toLowerCase()] = {
+                                    name: data.list[website].name.toLowerCase(),
+                                    url: data.list[website].url,
+                                    chosen: [],
+                                    titles: [],
+                                    language: data.list[website].language,
+                                    ignoring: true
+                                };
+
+                                chrome.storage.local.set({
+                                    websites: res.websites
+                                });
+                            }
+                        });
+                    });
+                }
             }
 
         }
